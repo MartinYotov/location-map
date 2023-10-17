@@ -1,0 +1,53 @@
+.map-container {
+  flex: 80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.map-frame {
+  border: 2px solid black;
+  width: 100%;
+  /* max-width: 800px; Adjust the maximum width as needed */
+}
+
+#map {
+  height: 500px; /* Adjust the map height as needed */
+  width: 100%;
+}
+
+/* Style the location input and button container */
+.location-container {
+  display: flex;
+  flex: 10;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Adjust the hover color */
+}
